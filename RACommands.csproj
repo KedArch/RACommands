@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExMod.Exiled" Version="9.8.1" />
+    <Reference Include="UnityEngine">
+      <HintPath>$(SL_REFERENCES)\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(SL_REFERENCES)\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>$(SL_REFERENCES)\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>$(SL_REFERENCES)\Mirror.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
