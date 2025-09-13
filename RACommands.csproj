@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
+    <LangVersion>9</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +18,9 @@
     </Reference>
     <Reference Include="Mirror">
       <HintPath>$(SL_REFERENCES)\Mirror.dll</HintPath>
+    </Reference>
+    <Reference Include="MEC">
+      <HintPath>$(SL_REFERENCES)\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
   </ItemGroup>
 
