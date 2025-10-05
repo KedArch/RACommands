@@ -12,17 +12,18 @@ namespace RACommands {
         public static Plugin Instance;
         private RACommands.Commands.NpcCommand npcCommand;
         public Dictionary<Player, List<Npc>> Npcs { get; private set; }
+
         public override void OnEnabled()
         {
-          Instance = this;
-          Npcs = new Dictionary<Player, List<Npc>>();
-          npcCommand = new RACommands.Commands.NpcCommand();
+            Instance = this;
+            Npcs = new Dictionary<Player, List<Npc>>();
+            npcCommand = new RACommands.Commands.NpcCommand();
         }
 
         public override void OnDisabled()
         {
-          npcCommand.OnDisable();
-          Instance = null;
+            npcCommand.OnDisable();
+            Instance = null;
         }
     }
 }
