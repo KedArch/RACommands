@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ExMod.Exiled" Version="9.8.1" />
+    <PackageReference Include="ExMod.Exiled" Version="9.14.2" />
     <Reference Include="UnityEngine">
       <HintPath>$(SL_REFERENCES)\UnityEngine.dll</HintPath>
     </Reference>
